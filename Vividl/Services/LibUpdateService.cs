@@ -5,7 +5,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Bluegrams.Application;
 using Newtonsoft.Json;
-using Vividl.Model;
+using Vividl.Models;
 using Vividl.Properties;
 
 namespace Vividl.Services

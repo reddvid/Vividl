@@ -1,5 +1,5 @@
 ﻿using System;
-using Vividl.Model;
+using Vividl.Models;
 
 namespace Vividl.Services
 {

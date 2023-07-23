@@ -5,8 +5,8 @@ using Bluegrams.Application;
 using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Messaging;
 using Vividl.Properties;
-using Vividl.View;
-using Vividl.ViewModel;
+using Vividl.Views;
+using Vividl.ViewModels;
 using WPFLocalizeExtension.Engine;
 
 namespace Vividl

@@ -169,20 +169,20 @@
     <Compile Include="Helpers\ButtonEx.cs" />
     <Compile Include="Helpers\EnumExtension.cs" />
     <Compile Include="Helpers\ValueConverters.cs" />
-    <Compile Include="Model\CustomYoutubeDL.cs" />
-    <Compile Include="Model\DownloadConfigurations.cs" />
-    <Compile Include="Model\DownloadOption.cs" />
-    <Compile Include="Model\DownloadOptionCollection.cs" />
-    <Compile Include="Model\Enums.cs" />
-    <Compile Include="Model\ExtProvider.cs" />
-    <Compile Include="Model\IDownloadEntry.cs" />
-    <Compile Include="Model\IDownloadOption.cs" />
-    <Compile Include="Model\MediaEntry.cs" />
-    <Compile Include="Model\PlaylistEntry.cs" />
-    <Compile Include="Model\ProgressEventArgs.cs" />
-    <Compile Include="Model\VideoEntryException.cs" />
-    <Compile Include="Model\VideoEntry.cs" />
-    <Compile Include="Model\YoutubeDLExtensions.cs" />
+    <Compile Include="Models\CustomYoutubeDL.cs" />
+    <Compile Include="Models\DownloadConfigurations.cs" />
+    <Compile Include="Models\DownloadOption.cs" />
+    <Compile Include="Models\DownloadOptionCollection.cs" />
+    <Compile Include="Models\Enums.cs" />
+    <Compile Include="Models\ExtProvider.cs" />
+    <Compile Include="Models\IDownloadEntry.cs" />
+    <Compile Include="Models\IDownloadOption.cs" />
+    <Compile Include="Models\MediaEntry.cs" />
+    <Compile Include="Models\PlaylistEntry.cs" />
+    <Compile Include="Models\ProgressEventArgs.cs" />
+    <Compile Include="Models\VideoEntryException.cs" />
+    <Compile Include="Models\VideoEntry.cs" />
+    <Compile Include="Models\YoutubeDLExtensions.cs" />
     <Compile Include="Services\DownloadOutputLogger.cs" />
     <Compile Include="Services\FileService.cs" />
     <Compile Include="Services\IDownloadOptionProvider.cs" />
@@ -193,37 +193,37 @@
     <Compile Include="Services\NotificationDialogService.cs" />
     <Compile Include="Services\ThemeResolver.cs" />
     <Compile Include="Services\SmartAutomationService.cs" />
-    <Compile Include="ViewModel\FetchViewModel.cs" />
-    <Compile Include="ViewModel\FormatSelectionViewModel.cs" />
-    <Compile Include="ViewModel\ItemViewModel.cs" />
-    <Compile Include="ViewModel\MainViewModel.cs" />
-    <Compile Include="ViewModel\SettingsViewModel.cs" />
-    <Compile Include="ViewModel\ShowWindowMessage.cs" />
-    <Compile Include="Model\AccentColorScheme.cs" />
-    <Compile Include="View\CustomArgsWindow.xaml.cs">
+    <Compile Include="ViewModels\FetchViewModel.cs" />
+    <Compile Include="ViewModels\FormatSelectionViewModel.cs" />
+    <Compile Include="ViewModels\ItemViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\SettingsViewModel.cs" />
+    <Compile Include="ViewModels\ShowWindowMessage.cs" />
+    <Compile Include="Models\AccentColorScheme.cs" />
+    <Compile Include="Views\CustomArgsWindow.xaml.cs">
       <DependentUpon>CustomArgsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\DownloadOptionComboBox.cs" />
-    <Compile Include="View\DownloadOutputWindow.xaml.cs">
+    <Compile Include="Views\DownloadOptionComboBox.cs" />
+    <Compile Include="Views\DownloadOutputWindow.xaml.cs">
       <DependentUpon>DownloadOutputWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\FetchWindow.xaml.cs">
+    <Compile Include="Views\FetchWindow.xaml.cs">
       <DependentUpon>FetchWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Services\IThemeResolver.cs" />
-    <Compile Include="View\FormatSelectionWindow.xaml.cs">
+    <Compile Include="Views\FormatSelectionWindow.xaml.cs">
       <DependentUpon>FormatSelectionWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\PathSelectionControl.xaml.cs">
+    <Compile Include="Views\PathSelectionControl.xaml.cs">
       <DependentUpon>PathSelectionControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\PlaylistDataWindow.xaml.cs">
+    <Compile Include="Views\PlaylistDataWindow.xaml.cs">
       <DependentUpon>PlaylistDataWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\VideoDataWindow.xaml.cs">
+    <Compile Include="Views\VideoDataWindow.xaml.cs">
       <DependentUpon>VideoDataWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\SettingsWindow.xaml.cs">
+    <Compile Include="Views\SettingsWindow.xaml.cs">
       <DependentUpon>SettingsWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
@@ -238,49 +238,49 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="View\CustomArgsWindow.xaml">
+    <Page Include="Views\CustomArgsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\DownloadOutputWindow.xaml">
+    <Page Include="Views\DownloadOutputWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\FetchWindow.xaml">
+    <Page Include="Views\FetchWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\FormatSelectionWindow.xaml">
+    <Page Include="Views\FormatSelectionWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\ListBoxItemStyle.xaml">
+    <Page Include="Views\ListBoxItemStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\PathSelectionControl.xaml">
+    <Page Include="Views\PathSelectionControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\PlaylistDataWindow.xaml">
+    <Page Include="Views\PlaylistDataWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\VideoDataWindow.xaml">
+    <Page Include="Views\VideoDataWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\SettingsWindow.xaml">
+    <Page Include="Views\SettingsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\GeneralResources.xaml">
+    <Page Include="Views\GeneralResources.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ViewModel\VideoViewModel.cs" />
+    <Compile Include="ViewModels\VideoViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

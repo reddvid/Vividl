@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media;
 using AdonisUI;
-using Vividl.Model;
+using Vividl.Models;
 
 namespace Vividl.Services
 {

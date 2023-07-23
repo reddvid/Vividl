@@ -4,7 +4,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Data;
 using MahApps.Metro.IconPacks;
-using Vividl.Model;
+using Vividl.Models;
 
 namespace Vividl.Helpers
 {

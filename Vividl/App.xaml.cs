@@ -6,10 +6,10 @@ using System.Windows.Media;
 using Bluegrams.Application;
 using Enterwell.Clients.Wpf.Notifications;
 using GalaSoft.MvvmLight.Ioc;
-using Vividl.Model;
+using Vividl.Models;
 using Vividl.Properties;
 using Vividl.Services;
-using Vividl.ViewModel;
+using Vividl.ViewModels;
 using YoutubeDLSharp;
 using YoutubeDLSharp.Options;
 

@@ -131,9 +131,9 @@ namespace Vividl.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Overwrite")]
         [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
-        public global::Vividl.Model.OverwriteMode OverwriteMode {
+        public global::Vividl.Models.OverwriteMode OverwriteMode {
             get {
-                return ((global::Vividl.Model.OverwriteMode)(this["OverwriteMode"]));
+                return ((global::Vividl.Models.OverwriteMode)(this["OverwriteMode"]));
             }
             set {
                 this["OverwriteMode"] = value;
@@ -144,9 +144,9 @@ namespace Vividl.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Light")]
         [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
-        public global::Vividl.Model.Theme AppTheme {
+        public global::Vividl.Models.Theme AppTheme {
             get {
-                return ((global::Vividl.Model.Theme)(this["AppTheme"]));
+                return ((global::Vividl.Models.Theme)(this["AppTheme"]));
             }
             set {
                 this["AppTheme"] = value;
@@ -294,9 +294,9 @@ namespace Vividl.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("None")]
-        public global::Vividl.Model.HwAccelMode FFmpegHardwareAcceleration {
+        public global::Vividl.Models.HwAccelMode FFmpegHardwareAcceleration {
             get {
-                return ((global::Vividl.Model.HwAccelMode)(this["FFmpegHardwareAcceleration"]));
+                return ((global::Vividl.Models.HwAccelMode)(this["FFmpegHardwareAcceleration"]));
             }
             set {
                 this["FFmpegHardwareAcceleration"] = value;

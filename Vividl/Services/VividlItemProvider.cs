@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Bluegrams.Application;
-using Vividl.Model;
-using Vividl.ViewModel;
+using Vividl.Models;
+using Vividl.ViewModels;
 using YoutubeDLSharp.Options;
 
 namespace Vividl.Services

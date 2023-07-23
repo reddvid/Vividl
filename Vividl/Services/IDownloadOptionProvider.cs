@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Vividl.Model;
+using Vividl.Models;
 
 namespace Vividl.Services
 {

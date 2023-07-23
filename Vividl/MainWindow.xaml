@@ -6,7 +6,7 @@
         xmlns:icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
         xmlns:notif="clr-namespace:Enterwell.Clients.Wpf.Notifications.Controls;assembly=Enterwell.Clients.Wpf.Notifications"
         xmlns:p="clr-namespace:Vividl.Properties"
-        xmlns:vm="clr-namespace:Vividl.ViewModel"
+        xmlns:vm="clr-namespace:Vividl.ViewModels"
         xmlns:adonisUi="clr-namespace:AdonisUI;assembly=AdonisUI"
         xmlns:adonisControls="clr-namespace:AdonisUI.Controls;assembly=AdonisUI"
         xmlns:lex="http://wpflocalizeextension.codeplex.com"
