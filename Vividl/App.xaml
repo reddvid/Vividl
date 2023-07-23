@@ -10,8 +10,8 @@
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="pack://application:,,,/AdonisUI;component/ColorSchemes/Light.xaml" />
 				<ResourceDictionary Source="pack://application:,,,/AdonisUI.ClassicTheme;component/Resources.xaml" />
-				<ResourceDictionary Source="pack://application:,,,/Views/GeneralResources.xaml" />
-				<ResourceDictionary Source="pack://application:,,,/Views/ListBoxItemStyle.xaml" />
+				<ResourceDictionary Source="pack://application:,,,/Resources/GeneralResources.xaml" />
+				<ResourceDictionary Source="pack://application:,,,/Resources/ListBoxItemStyle.xaml" />
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>
